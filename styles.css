@@ -1,8 +1,7 @@
 body{
-    background:url(images/background.png);
-    background-repeat: no-repeat;
+    background-color: whitesmoke;
     margin:0;
-    color: white;
+    color:rgb(61, 58, 58,);
     font-size: 21px;
     font-family: 'Teko', sans-serif;
 }
@@ -15,7 +14,7 @@ body{
     grid-template-rows: [liner1] 1fr [liner2] 2fr[liner3] 3fr [liner4] 3fr [liner5] 1fr [liner6];
 }
 .item{
-    border:5px solid black;   
+    border-bottom:1px solid gray;   
 }
 .item:nth-of-type(1){
  
@@ -28,16 +27,15 @@ body{
 .item:nth-of-type(2){
     grid-column: line1 / line4;
     grid-row: liner2 / liner3;
-    background:rgba(61, 58, 58, .9);
-    /*  background:url(images/hero.png);
-    background-repeat: repeat; 
-    background-size: 25em; */
-    margin-top: 3.5em;
+    /* background:rgba(61, 58, 58, .7); */
+    margin-top: 5em;
+    border: none;
 }
 .item:nth-of-type(3){
-    background-color:lightblue;
     grid-column: line2 / line3;
     grid-row: liner3 / liner4;
+    color:rgb(61, 58, 58,);
+    margin-top: .6em;
 }
 .item:nth-of-type(4){
     background-color:green;
@@ -92,20 +90,69 @@ margin-left: 55px;
 /* Comienzan estilos Hero */
 .hero{
     display: flex;
-    width: 50%;
-    height: 100%;
-    background: rgba(61, 58, 58, .2);
-    margin-left: 15em; 
-}
-.hero h1{
-font-size: 2em;
--webkit-text-stroke: 1em  rgb(61, 58, 58,);
-}
-.hero img{
-    width: 8em;
-    height: 8em;
-    margin-left: 2em;
-    margin-top: 1.5em;
-    border-radius: 50%;
+    width: 100%;
+    height: 10.4em;
+    background:url(images/hero22.png);
+    background-repeat: no-repeat; 
+    background-size: 70em; 
+    background-position: 37% 33%;
+    border-bottom: solid .1em  gray;
+    margin:auto;
+    padding: auto;
 
+}
+.content_hero h1{
+margin-left: 8em;
+color: whitesmoke;
+font-size: 2em;
+-webkit-text-stroke: .03em black;
+}
+.hero_image img{
+    width: 8.5em;
+    height: 8.5em;
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-top: 1.5em;
+    border: solid .1em #5ce1e6;
+    border-radius: 50%;
+}
+/* Terminan estilos del Hero */
+/* Comienzan estilos de destacado */
+.destacado {
+    border: .05em solid gray;
+    border-radius: .4em;
+    margin-bottom: 1em;
+    padding: 1.5empx;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.destacado_title {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: .7em 0;
+}
+.destacado_course {
+    margin: .9em 0;
+}
+.destacado_date {
+    margin: .9em 0;
+}
+.destacado_url{
+    margin: .9em 0;
+}
+.destacado_details{
+    width: 25em;
+    margin-left: 1.3em;
+}
+.destacado_description{
+    font-size: 1em;
+}
+.destacado_imageContainer {
+    width: 25em;
+}
+.destacado_imageContainer img{
+    width: 24em;
+    height: 20em;
 }
