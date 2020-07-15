@@ -34,8 +34,10 @@ body{
 .item:nth-of-type(3){
     grid-column: line2 / line3;
     grid-row: liner3 / liner4;
-    color:rgb(61, 58, 58,);
+    color:gray;
     margin-top: .6em;
+    display: flex;
+    justify-content: space-between;
 }
 .item:nth-of-type(4){
     background-color:green;
@@ -85,6 +87,8 @@ margin-left: 55px;
 .navbar a:hover{
     color:#e762b3;
     font-weight: bold;
+    border-left: .2em solid #e762b3;
+    border-right: .2em solid #e762b3;
 }
 /* Terminan Estilos Navbar */
 /* Comienzan estilos Hero */
@@ -95,14 +99,14 @@ margin-left: 55px;
     background:url(images/hero22.png);
     background-repeat: no-repeat; 
     background-size: 70em; 
-    background-position: 37% 33%;
+    background-position: 0% 33%;
     border-bottom: solid .1em  gray;
     margin:auto;
     padding: auto;
 
 }
 .content_hero h1{
-margin-left: 8em;
+margin-left: 2.7em;
 color: whitesmoke;
 font-size: 2em;
 -webkit-text-stroke: .03em black;
@@ -119,28 +123,58 @@ font-size: 2em;
 /* Terminan estilos del Hero */
 /* Comienzan estilos de destacado */
 .destacado {
-    border: .05em solid gray;
+    width: 25em;
+    height: 25em;
+    box-shadow: 0px 0px 1em .5em gray;
     border-radius: .4em;
     margin-bottom: 1em;
     padding: 1.5empx;
     background: whitesmoke;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    
 }
 .destacado_title {
+    background: url(images/blogimage1.jpg);
+    background-size: 10em;
+    background-repeat: no-repeat;
+    width: 10em;
+    height: 5em;
     font-size: 2em;
-    margin-top: 0;
-    margin-bottom: .7em 0;
+    margin: .6em;
+    margin-right: 2em;
+    text-align: center;
+    color: whitesmoke;
+    -webkit-text-stroke: .03em black;
+    border-radius: 5%;
 }
-.destacado_course {
-    margin: .9em 0;
-}
-.destacado_date {
-    margin: .9em 0;
+.destacado_titleTwo {
+    background: url(images/blogimage2.jpg);
+    background-size: 10em;
+    background-repeat: no-repeat;
+    width: 10em;
+    height: 5em;
+    font-size: 2em;
+    margin: .6em;
+    margin-right: 2em;
+    text-align: center;
+    color: whitesmoke;
+    -webkit-text-stroke: .03em black;
+    border-radius: 5%;
 }
 .destacado_url{
-    margin: .9em 0;
+    width: 15em;
+    margin: 8.5em;
+    margin-top: 1.5em;
+    border-bottom: .08em solid black;
+    border-radius: .1em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+.destacado_url a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1em;
 }
 .destacado_details{
     width: 25em;
@@ -148,11 +182,7 @@ font-size: 2em;
 }
 .destacado_description{
     font-size: 1em;
-}
-.destacado_imageContainer {
-    width: 25em;
-}
-.destacado_imageContainer img{
-    width: 24em;
-    height: 20em;
-}
+    width: 20em;
+    margin: auto;
+    margin-right: 4em;
+}  
