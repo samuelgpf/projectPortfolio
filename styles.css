@@ -38,11 +38,15 @@ body{
     margin-top: .6em;
     display: flex;
     justify-content: space-between;
+    padding: 1em -1em;
 }
 .item:nth-of-type(4){
     background-color:green;
     grid-column: line2 / line3;
     grid-row: liner4 / liner5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .item:nth-of-type(5){
     background-color:royalblue;
@@ -123,12 +127,12 @@ font-size: 2em;
 /* Terminan estilos del Hero */
 /* Comienzan estilos de destacado */
 .destacado {
-    width: 25em;
+    width: 24em;
     height: 25em;
     box-shadow: 0px 0px 1em .5em gray;
     border-radius: .4em;
     margin-bottom: 1em;
-    padding: 1.5empx;
+    padding: .2em;
     background: whitesmoke;
     align-items: center;
     
@@ -162,19 +166,37 @@ font-size: 2em;
     border-radius: 5%;
 }
 .destacado_url{
-    width: 15em;
-    margin: 8.5em;
-    margin-top: 1.5em;
-    border-bottom: .08em solid black;
-    border-radius: .1em;
+    width: 7em;
+    height: 1.5em;
+    margin: .5em;
+    margin-left: 6em;
+    border: solid .04em black; 
+    box-shadow: 0px 0px 1em .5em #5ce1e6;
+    border-radius: .4em;
     text-decoration: none;
     color: black;
     font-size: 1.1em;
+    text-align: center;
+}
+.destacado_url:hover{
+    width: 7.1em;
+    height: 1.5em;
+    margin: .5em;
+    margin-left: 6em;
+    border: solid .05em black; 
+    box-shadow: 0px 0px 1em .5em #e762b3;
+    border-radius: .4em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.05em;
+    text-align: center;
+
 }
 .destacado_url a{
     text-decoration: none;
-    color: gray;
+    color:black;
     font-size: 1em;
+    align-self: center;
 }
 .destacado_details{
     width: 25em;
@@ -186,3 +208,5 @@ font-size: 2em;
     margin: auto;
     margin-right: 4em;
 }  
+/* Terminan estilos de destacado */
+/* Comienzan estilos de Contenidos */
