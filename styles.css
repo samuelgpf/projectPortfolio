@@ -222,8 +222,6 @@ font-size: 2em;
     overflow: hidden;
     flex-shrink: 0;
     background-color:whitesmoke;
-    
-   /*  position: absolute; */
 }
 
 .detail img {
@@ -275,3 +273,5 @@ font-size: 2em;
     color: black;
     font-size: 1.05em;
 }
+/* Terminan estilos destacados */
+/* Comienzan estilos contact section */
