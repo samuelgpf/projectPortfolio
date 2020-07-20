@@ -48,9 +48,12 @@ body{
     border-radius: .4em;
 }
 .item:nth-of-type(5){
-    background-color:royalblue;
     grid-column: line1 / line4;
     grid-row: liner5 / liner6;
+    background: rgba(61, 58, 58, .9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* Termina layout de página */
 /* Empiezan estilos Navbar */
