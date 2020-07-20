@@ -31,7 +31,7 @@ body{
 .item:nth-of-type(3){
     grid-column: line2 / line3;
     grid-row: liner3 / liner4;
-    color:gray;
+    color:rgb(61, 58, 58,);
     margin-top: .6em;
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,7 @@ body{
 .item:nth-of-type(5){
     grid-column: line1 / line4;
     grid-row: liner5 / liner6;
-    background: rgba(61, 58, 58, .9);
+    background: rgba(61, 58, 58, .7);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,18 +60,18 @@ body{
 .navbar{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 5em;
     background: rgba(61, 58, 58, .7);
     color: white;
     justify-content: space-between;
     align-items: center;
 }
 .logo img{
-width: 305px;
-height: 325px;
-margin-bottom: -150px;
-margin-top: -80px;
-margin-left: 55px;
+width: 15em;
+height: 15.5em;
+margin-bottom: 0.5em;
+margin-top: 3.5em;
+margin-left: 2.7em;
 }
 .nav_menu{
     margin-right: 35px;
@@ -83,9 +83,9 @@ margin-left: 55px;
     margin-left: 10px;
 }
 .navbar a {
-    color: white;
+    font-size: 1.1em;
+    color: whitesmoke;
     text-decoration: none;
-    height: inherit;
     align-items: center;
     display: flex;
     padding: 0px 10px;  
@@ -106,7 +106,7 @@ margin-left: 55px;
     background-repeat: no-repeat; 
     background-size: 70em; 
     background-position: 0% 33%;
-    border-bottom: solid .1em  gray;
+    border-bottom: solid .1em rgb(61, 58, 58,);
     margin:auto;
     padding: auto;
 
@@ -123,27 +123,31 @@ font-size: 2em;
     margin-left: 2em;
     margin-right: 1em;
     margin-top: 1.5em;
-    box-shadow: 0px 0px 1em .5em #5ce1e6;
+    box-shadow: 0px 0px 1em .5em gray;
     border-radius: 50%;
 }
 /* Terminan estilos del Hero */
 /* Comienzan estilos de destacado */
 .destacado {
     width: 24em;
-    height: 25em;
+    height: 27em;
     box-shadow: 0px 0px 1em .5em gray;
     border-radius: .4em;
     margin-bottom: 1em;
     padding: .2em;
     background: whitesmoke;
-    align-items: center;
-    
+    align-items: center;  
+}
+.destacado_description{
+    border: solid .07em black; 
+    border-radius: .3em;
+    padding: .5em;
 }
 .destacado_title {
     background: url(images/blogimage1.jpg);
     background-size: 10em;
     background-repeat: no-repeat;
-    width: 10em;
+    width: 9.5em;
     height: 5em;
     font-size: 2em;
     margin: .6em;
@@ -157,7 +161,7 @@ font-size: 2em;
     background: url(images/blogimage2.jpg);
     background-size: 10em;
     background-repeat: no-repeat;
-    width: 10em;
+    width: 9.5em;
     height: 5em;
     font-size: 2em;
     margin: .6em;
@@ -175,7 +179,7 @@ font-size: 2em;
     border: solid .04em black; 
     border-radius: .4em;
     text-decoration: none;
-    color: black;
+    color:rgb(61, 58, 58,);
     font-size: 1.1em;
     text-align: center;
 }
@@ -184,11 +188,11 @@ font-size: 2em;
     height: 1.5em;
     margin: .5em;
     margin-left: 6em;
-    border: solid .05em black; 
+    border: solid .05em rgb(61, 58, 58,); 
     box-shadow: 0px 0px 1em .5em #e762b3;
     border-radius: .4em;
     text-decoration: none;
-    color: black;
+    color:rgb(61, 58, 58,);
     font-size: 1.05em;
     text-align: center;
 
@@ -278,3 +282,21 @@ font-size: 2em;
 }
 /* Terminan estilos destacados */
 /* Comienzan estilos contact section */
+.work{
+    margin-left: 5em;
+}
+.work h1{
+    font-size: 1.5em;
+    color: #5ce1e6;
+}
+.icons{
+    margin-right: 5em;
+}
+.icons a{
+    text-decoration: none;
+}
+.icons span::before{
+    color: #5ce1e6;
+    font-size: 2em;
+}
+
