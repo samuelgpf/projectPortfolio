@@ -14,19 +14,34 @@ body{
     grid-template-rows: [liner1] 1fr [liner2] 2fr[liner3] 3fr [liner4] 3fr [liner5] 1fr [liner6];
 }
 .item:nth-of-type(1){
- 
     grid-column: line1 / line4;
     grid-row: liner1 / liner2;
     position: fixed;
     top:0%;
     width: 100%; 
+    display: flex;
+    width: 100%;
+    height: 5em;
+    background: rgba(61, 58, 58, .7);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
 }
 .item:nth-of-type(2){
     grid-column: line1 / line4;
     grid-row: liner2 / liner3;
-    /* background:rgba(61, 58, 58, .7); */
     margin-top: 5em;
     border: none;
+    display: flex;
+    width: 100%;
+    height: 10.4em;
+    background:url(images/hero22.png);
+    background-repeat: no-repeat; 
+    background-size: 70em; 
+    background-position: 0% 33%;
+    border-bottom: solid .1em rgb(61, 58, 58,);
+        margin-top: 5em;
+    padding: auto;
 }
 .item:nth-of-type(3){
     grid-column: line2 / line3;
@@ -57,15 +72,6 @@ body{
 }
 /* Termina layout de página */
 /* Empiezan estilos Navbar */
-.navbar{
-    display: flex;
-    width: 100%;
-    height: 5em;
-    background: rgba(61, 58, 58, .7);
-    color: white;
-    justify-content: space-between;
-    align-items: center;
-}
 .logo img{
 width: 15em;
 height: 15.5em;
@@ -98,19 +104,6 @@ margin-left: 2.7em;
 }
 /* Terminan Estilos Navbar */
 /* Comienzan estilos Hero */
-.hero{
-    display: flex;
-    width: 100%;
-    height: 10.4em;
-    background:url(images/hero22.png);
-    background-repeat: no-repeat; 
-    background-size: 70em; 
-    background-position: 0% 33%;
-    border-bottom: solid .1em rgb(61, 58, 58,);
-    margin:auto;
-    padding: auto;
-
-}
 .content_hero h1{
 margin-left: 2.7em;
 color: whitesmoke;
@@ -231,10 +224,15 @@ font-size: 2em;
     background-color:whitesmoke;
 }
 
+.detail_imageContainer{
+    padding: 2em;
+}
+
 .detail img {
     border-radius: .5em;
     width:21.1em;
     height: 12em;
+    margin-top: 1em;
     
 }
 .detail_info {
