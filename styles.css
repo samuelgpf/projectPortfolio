@@ -109,7 +109,7 @@ margin-left: 2.7em;
     width: 8.5em;
     height: 8.5em;
     margin-left: 29em;
-    margin-right: 1em;
+    margin-right: 8em;
     margin-top: 5em;
     box-shadow: 0px 0px 1em .5em whitesmoke;
     border-radius: 50%;
@@ -144,6 +144,7 @@ margin-left: 2.7em;
     font-size: 1.1em;
      border: solid .09em black; 
     border-radius: .4em;
+   
 }
 .slider li a:hover{
     width: 8.5em;
@@ -155,6 +156,13 @@ margin-left: 2.7em;
     border: solid .09em black; 
     box-shadow: 0px 0px .2em .2em #e762b3;
     border-radius: .4em;
+}
+.slider li h3{
+    color: whitesmoke;
+    font-size: 2.5em;
+    -webkit-text-stroke: .03em black;
+    margin-top: 1em;
+    margin-bottom: -1em;
 }
 ul li div{
     width: 100%;
