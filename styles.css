@@ -33,14 +33,13 @@ body{
     grid-column: line2 / line3;
     grid-row: liner2 / liner3;
     border: none;
-    display: flex;
     width: 78%;
-    height: 10.4em;
+    height: 16.4em;
     margin-left: 6em;
-   background:url(images/blogimage.png);
-    background-repeat: no-repeat; 
-    background-size: 70em; 
-    background-position: 0% 33%;
+    background:url(images/banner.png);
+    background-repeat:no-repeat; 
+    background-size: cover; 
+    background-position: 25% 50%;
     /* background: whitesmoke; */
     box-shadow: 0px 0px 1em .5em gray;
     margin-top: 7em;
@@ -106,20 +105,15 @@ margin-left: 2.7em;
 }
 /* Terminan Estilos Navbar */
 /* Comienzan estilos Hero */
-.content_hero h1{
-margin-left: 2.7em;
-color: whitesmoke;
-font-size: 2em;
--webkit-text-stroke: .03em black;
-}
 .hero_image img{
     width: 8.5em;
     height: 8.5em;
-    margin-left: 2em;
+    margin-left: 29em;
     margin-right: 1em;
-    margin-top: 1.5em;
+    margin-top: 5em;
     box-shadow: 0px 0px 1em .5em whitesmoke;
     border-radius: 50%;
+    align-self: flex-end;
 }
 /* Terminan estilos del Hero */
 /* Comienzan estilos de destacado */
@@ -128,7 +122,7 @@ font-size: 2em;
     margin: auto;
     padding: 0;
     overflow: hidden;
-    border-radius: 5em;
+    border-radius: 3em;
 }
 .slider ul{
     display: flex;
@@ -139,6 +133,28 @@ font-size: 2em;
 .slider li{
     width: 100%;
     list-style: none;
+}
+.slider li a{
+    width: 8em;
+    margin: auto;
+    margin-bottom: 2em;
+    text-decoration: none;
+    background: whitesmoke;
+    color: black;
+    font-size: 1.1em;
+     border: solid .09em black; 
+    border-radius: .4em;
+}
+.slider li a:hover{
+    width: 8.5em;
+    margin: auto;
+    text-decoration: none;
+    background: whitesmoke;
+    color: black;
+    font-size: 1.2em;
+    border: solid .09em black; 
+    box-shadow: 0px 0px .2em .2em #e762b3;
+    border-radius: .4em;
 }
 ul li div{
     width: 100%;
@@ -251,7 +267,7 @@ ul li div{
 }
 .detail_url:hover{
     border: solid .05em black; 
-    box-shadow: 0px 0px 1em .5em #e762b3;
+    box-shadow: 0px 0px .2em .2em #e762b3;
     border-radius: .4em;
     text-decoration: none;
     color: black;

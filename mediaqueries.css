@@ -25,46 +25,7 @@
     .logo img{
         visibility: hidden;
     }
-    .navbar ol{
-        margin-right: 16em;
-        margin-left: -61em;
-    }
 }
 @media (max-width: 634px){
-    .container{
-        width: 100vw;
-        height: 100vh;
-        display: grid;
-        grid-template-columns: [line1] 1fr [line2];
-        grid-template-rows: [liner1] 1fr [liner2] 2fr[liner3] 3fr [liner4] 3fr [liner5] 1fr [liner6];
-    }
-    .item:nth-of-type(1){
-        grid-column: line1 / line2;
-        grid-row: liner1 / liner2;
-        position: fixed;
-    }
-    .item:nth-of-type(2){
-        grid-column: line1 / line2;
-        grid-row: liner2 / liner3;
-        margin-top: 5em;
-        border: none;
-    }
-    .item:nth-of-type(3){
-        grid-column: line1 / line2;
-        grid-row: liner3 / liner4;
-        display: inline;
-        margin:auto;
-    }
-    .item:nth-of-type(4){
-        grid-column: line1 / line2;
-        grid-row: liner4 / liner5;
-        display: inline;
-    }
-    .item:nth-of-type(5){
-        grid-column: line1 / line2;
-        grid-row: liner5 / liner6;
-        background: rgba(61, 58, 58, .7);
-        display: inline;
-    } 
     
 }
