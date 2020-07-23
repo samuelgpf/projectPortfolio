@@ -173,11 +173,11 @@
         width: 105%;
     }
 }
-@media (max-width: 490px){
+@media (max-width: 500px){
     body{
         font-size: 10px;
     }
     .hero_image img{
-        visibility: hidden;
+        margin-left: 28em;
     }
 }
