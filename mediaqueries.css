@@ -121,18 +121,25 @@
         grid-template-rows: [liner1] 1fr [liner2] 2fr[liner3] 3fr [liner4] 3fr [liner5] 1fr [liner6];
         }
         .item:nth-of-type(1){
-            width: 55%;
+            width: 100%;
+        }
+        .nav_menu {
+            margin-right: 2em;
+        }
+        .logo img {
+            margin-left: 3.7em;
         }
         .item:nth-of-type(2){
             width: 55%;
         }
         .item:nth-of-type(3){
-            width: 78%;
-            margin-left: 1.5em;
+            width: 97%;
+            margin-left: -0.5em;
         }
         .item:nth-of-type(4){
-            width: 51%;
-            margin-left: 8.5em;
+            width: 59%;
+            margin: auto;
+            margin-top: -8em;
         }
         .detail img{
             width: 30.1em;
@@ -148,9 +155,11 @@
             width: 21.6em;
             height: 15.5em;
         }
-        .item:nth-of-type(5){
-            width: 5%;
+        .item:nth-of-type(5) {
+            width: 96.3%;
         }
+    }
+    @media (max-width: 500px){
 
     }
 
