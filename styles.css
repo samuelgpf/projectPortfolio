@@ -71,6 +71,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2em;
 }
 /* Termina layout de página */
 /* Empiezan estilos Navbar */
@@ -221,7 +222,7 @@ ul li div{
     border-radius: 0.5em;
     margin: -1.5em auto 0 auto;
     width: 24.7em;
-    height: 22.5em;
+    height: 24.5em;
     overflow: hidden;
     flex-shrink: 0;
     background-color:whitesmoke;
@@ -267,6 +268,7 @@ ul li div{
     border: solid .1em black; 
     border-radius: .4em;
     text-align: center;
+    margin-top: 1.5em;
 }
 .detail_url a{
     text-decoration: none;

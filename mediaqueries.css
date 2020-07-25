@@ -43,8 +43,7 @@
 }
 @media (max-width: 800px){
     .container{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     display: grid;
     grid-template-columns: [line1] 1fr [line2]20fr[line3] 1fr [line4];
     grid-template-rows: [liner1] 1fr [liner2] 2fr[liner3] 3fr [liner4] 3fr [liner5] 1fr [liner6];
@@ -116,77 +115,29 @@
     .logo img{
         margin-left: 6.7em;
     }
-    @media (max-width: 470px){
-        .item:nth-of-type(3){
-            margin-left: 7.4em;
-            width: 92%;
-        }
-        .detail{
-            margin-left: -2em;
-            width: 109%;
-        }
-        .detail_info{
-            position: relative;
-            top: 1em;
-            right: 0em;
-            left: 1em;
-            bottom: 1em;
-            width: 21.6em;
-            height: 17.5em;
-            border: solid .2em black;
-        }
-        .nav_menu {
-            margin-right: 16em;
-        }
-        .logo img {
-            margin-left: 11.7em;
+    @media (max-width: 650px){
+        .container{
+        grid-template-columns: 1fr ;
+        grid-template-rows: [liner1] 1fr [liner2] 2fr[liner3] 3fr [liner4] 3fr [liner5] 1fr [liner6];
         }
         .item:nth-of-type(1){
-            position: absolute;
-            width: 86em;
+            width: 100%;
         }
-        .icons {
-            margin-right: 14em;
+        .item:nth-of-type(2){
+            width: 100%;
         }
-    }
-    @media (max-width: 470px){
         .item:nth-of-type(3){
-            margin-left: 7.4em;
-            width: 92%;
+            width: 100%;
         }
-        .detail{
-            margin-left: -2em;
-            width: 109%;
+        .item:nth-of-type(4){
+            width: 100%;
         }
-        .detail_info{
-            position: relative;
-            top: 1em;
-            right: 0em;
-            left: 1em;
-            bottom: 1em;
-            width: 21.6em;
-            height: 17.5em;
-            border: solid .2em black;
+        .item:nth-of-type(5){
+            width: 50%;
         }
-        .nav_menu {
-            margin-right: 16em;
-        }
-        .logo img {
-            margin-left: 11.7em;
-        }
-        .item:nth-of-type(1){
-            position: absolute;
-            width: 86em;
-        }
-        .icons {
-            margin-right: 14em;
-        }
+
     }
-    @media (max-width: 450px){
-        body{
-            font-size: 19px;
-        }
-        
+
 
 }
 
