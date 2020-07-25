@@ -121,19 +121,35 @@
         grid-template-rows: [liner1] 1fr [liner2] 2fr[liner3] 3fr [liner4] 3fr [liner5] 1fr [liner6];
         }
         .item:nth-of-type(1){
-            width: 100%;
+            width: 55%;
         }
         .item:nth-of-type(2){
-            width: 100%;
+            width: 55%;
         }
         .item:nth-of-type(3){
-            width: 100%;
+            width: 78%;
+            margin-left: 1.5em;
         }
         .item:nth-of-type(4){
-            width: 100%;
+            width: 51%;
+            margin-left: 8.5em;
+        }
+        .detail img{
+            width: 30.1em;
+            height: 20em;
+            margin: auto;
+        }
+        .detail_info {
+            position: relative;
+            top: 2em;
+            right: 0em;
+            left: -3em;
+            bottom: 1em;
+            width: 21.6em;
+            height: 15.5em;
         }
         .item:nth-of-type(5){
-            width: 50%;
+            width: 5%;
         }
 
     }
